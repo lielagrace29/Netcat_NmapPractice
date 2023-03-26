@@ -1,0 +1,7 @@
+#for help with Nmap you can always use Nmap -help
+nmap -sC -sV ipaddress -oA name of file you want
+# -sC is for script scan 
+# -sV is for probing open ports to  see service/protocol/version information
+#ip address of the device you want to scan and find information about
+# -oA output the information in three major formats at once
+# filename of where you want the output to be saved.
