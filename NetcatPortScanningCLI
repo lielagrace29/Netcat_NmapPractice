@@ -1,0 +1,2 @@
+nc -v -w 2 ip_address 1-1000
+#use this in your terinal to have netcat scan the given device (ip address) for open ports between 1-1000 allowing 2 seconds to scan for each port
